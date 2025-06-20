@@ -1,0 +1,1 @@
+# Licence-Plate-Recognition-LPR-and-Verification-using-YOLOv8-and-EasyOCR
