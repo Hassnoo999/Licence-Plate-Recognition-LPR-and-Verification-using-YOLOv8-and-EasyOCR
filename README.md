@@ -39,7 +39,7 @@ See the complete workflow attached after these steps for detailed understanding.
   <br>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fd231210-5fdf-44c4-a231-b10f1e77942d](https://github.com/user-attachments/assets/e7133c38-3c8c-4eb9-886b-b4b717f58b72" width="500" alt="Annotated Frame">
+  <img src="https://github.com/user-attachments/assets/e7133c38-3c8c-4eb9-886b-b4b717f58b72" width="500" alt="Annotated Frame">
   <br>
   <em>Frame before passing to the yolo model i.e before detecting anything.</em>
 </p>
@@ -50,7 +50,7 @@ See the complete workflow attached after these steps for detailed understanding.
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e7133c38-3c8c-4eb9-886b-b4b717f58b72" width="500" alt="Annotated Frame">
+  <img src="https://github.com/user-attachments/assets/2f4938a6-cdcb-4375-8aa3-6cab35ce27fd" width="500" alt="Annotated Frame">
   <br>
   <em>Figure 3: Comparison of different Yolo Models </em>
 </p>
