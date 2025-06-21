@@ -1,0 +1,48 @@
+import pandas as pd
+import random
+
+# Extended sample license plate numbers
+license_plates = [f"{random.choice(['LE', 'ISB', 'KHI', 'LHR', 'PES', 'MTN', 'ATB', 'RWP', 'FSD', 'GIL', 'SWL'])}-{random.randint(1000, 9999)}" for _ in range(100)]
+
+# Extended sample Pakistani owner names
+names = [
+    "Ali Khan", "Ayesha Noor", "Ahmed Raza", "Fatima Zain", "Usman Tariq", "Imran Khan", "Awais Zia", "Hassan Jabbar",
+    "Zara Naeem", "Bilal Ahmed", "Sana Javed", "Hamza Malik", "Tariq Aziz", "Rabia Iqbal", "Kashif Mehmood", "Nida Yasir",
+    "Saif Rehman", "Asma Abbas", "Zainab Khalid", "Owais Shah", "Mariam Ali"
+]
+
+# Extended Pakistani cities/regions
+regions = ["Lahore", "Karachi", "Islamabad", "Peshawar", "Quetta", "Faisalabad", "Sialkot", "Gilgit", "Rawalpindi", "Multan"]
+
+# Extended Pakistani car models
+cars = [
+    "Suzuki Mehran", "Toyota Corolla", "Honda Civic", "Suzuki Alto", "KIA Sportage", "Honda City", "BMW M8",
+    "Hyundai Elantra", "Toyota Prado", "Changan Alsvin", "Suzuki Swift", "Daihatsu Cuore", "Proton Saga", "MG HS"
+]
+
+# Common Pakistani vehicle colors
+colors = ["White", "Black", "Silver", "Blue", "Red", "Gray", "Green"]
+
+# Generate dataset
+data = {
+    "License_Plate": license_plates,
+    "Owner_Name": [random.choice(names) for _ in range(100)],
+    "Car_Model": [random.choice(cars) for _ in range(100)],
+    "License_Valid": [random.choice(["Valid", "Invalid"]) for _ in range(100)],
+    "Registration_Region": [random.choice(regions) for _ in range(100)],
+    "Vehicle_Type": [random.choice(["Sedan", "SUV", "Truck", "Hatchback", "Coupe", "Van"]) for _ in range(100)],
+    "Vehicle_Color": [random.choice(colors) for _ in range(100)],
+    "Vehicle_Year": [random.randint(1995, 2023) for _ in range(100)],
+    "Inspection_Status": [random.choice(["Passed", "Failed"]) for _ in range(100)],
+}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Ensure uniqueness by adding unique identifiers
+df["Unique_ID"] = df.index + 1
+
+# Save to CSV
+df.to_csv("enhanced_pakistan_car_license_dataset.csv", index=False)
+
+print("Enhanced Pakistani dataset created!")
