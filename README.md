@@ -46,17 +46,17 @@ See the complete workflow attached after these steps for detailed understanding.
    ### Complete Workflow:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fd231210-5fdf-44c4-a231-b10f1e77942d" width="1000" alt="Annotated Frame">
-  <br>
+  <br> 
+    <em>Figure 1: Complete Workflow </em>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e7133c38-3c8c-4eb9-886b-b4b717f58b72" width="800" alt="Annotated Frame">
-  <br>
-  <em>Frame before passing to the yolo model i.e before detecting anything.</em>
+  <img src="https://github.com/user-attachments/assets/e7133c38-3c8c-4eb9-886b-b4b717f58b72" alt="Frame before passing to the yolo model i.e before detecting anything" width="48%" />
+  &nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/313596f9-c21a-4923-80ab-46f327dbc0c7" alt="esultant Frame after passing through both models" width="48%" />
 </p>
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/313596f9-c21a-4923-80ab-46f327dbc0c7"  width="800" alt="Annotated Frame">
-  <br>
-  <em>Resultant Frame after passing through both models.</em>
+  <em>Figure 2: (Left) Frame before passing to the yolo model i.e before detecting anything  | (Right) Resultant Frame after passing through both models</em>
 </p>
 
 <p align="center">
