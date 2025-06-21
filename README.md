@@ -1,8 +1,18 @@
 # License Plate Recognition (LPR) and Verification System using YOLOv8 and EasyOCR
 
-An end-to-end AI-based system for automatic vehicle license plate detection, recognition, and verification from video feeds. This project combines the power of **YOLOv8**, **EasyOCR**, and **OpenCV** to offer a scalable solution for intelligent traffic monitoring and smart law enforcement systems.
+---
+#### An end-to-end AI-based system for automatic vehicle license plate detection, recognition, and verification from video feeds. This project combines the power of **YOLOv8**, **EasyOCR**, and **OpenCV** to offer a scalable solution for intelligent traffic monitoring and smart law enforcement systems.
+---
 
-## 📌 Motivation
+##  How to Setup
+
+- Upload everything to Google Drive
+- Open file1.py through Google Colab (The cells will show the current output, if you want to check it with your video, then follow step 03)
+- Change the paths in the file according to your own drive (Sample.mp4, Dataset Paths, CSV Paths, etc)
+- just run all the cells.
+- Enjoy :)
+
+##  Motivation
 
 As urban areas face increasing vehicle traffic, there's a rising need for **automated, intelligent traffic systems**. While many LPR systems focus on detection or text recognition alone, our work bridges this gap with an **integrated verification mechanism** — simulating real-world applications such as:
 - Identifying unregistered vehicles (number plate valid or not)
@@ -11,9 +21,9 @@ As urban areas face increasing vehicle traffic, there's a rising need for **auto
 
 ---
 
-## 🚀 Project Workflow
+##  Project Workflow
 
-### 🧩 Step-by-Step Pipeline:
+### Step-by-Step Pipeline:
 See the complete workflow attached after these steps for detailed understanding.
 
 1. **Video Frame Extraction**  
@@ -35,22 +45,22 @@ See the complete workflow attached after these steps for detailed understanding.
   
    ### Complete Workflow:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fd231210-5fdf-44c4-a231-b10f1e77942d" width="500" alt="Annotated Frame">
+  <img src="https://github.com/user-attachments/assets/fd231210-5fdf-44c4-a231-b10f1e77942d" width="1000" alt="Annotated Frame">
   <br>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e7133c38-3c8c-4eb9-886b-b4b717f58b72" width="500" alt="Annotated Frame">
+  <img src="https://github.com/user-attachments/assets/e7133c38-3c8c-4eb9-886b-b4b717f58b72" width="800" alt="Annotated Frame">
   <br>
   <em>Frame before passing to the yolo model i.e before detecting anything.</em>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6bc53aa7-cd94-4224-8361-c47624b47b96" width="500" alt="Annotated Frame">
+  <img src="https://github.com/user-attachments/assets/313596f9-c21a-4923-80ab-46f327dbc0c7"  width="800" alt="Annotated Frame">
   <br>
   <em>Resultant Frame after passing through both models.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2f4938a6-cdcb-4375-8aa3-6cab35ce27fd" width="500" alt="Annotated Frame">
+  <img src="https://github.com/user-attachments/assets/2f4938a6-cdcb-4375-8aa3-6cab35ce27fd" width="800" alt="Annotated Frame">
   <br>
   <em>Figure 3: Comparison of different Yolo Models </em>
 </p>
@@ -58,7 +68,7 @@ See the complete workflow attached after these steps for detailed understanding.
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - **Python** Everything has been done on Google Colab
 - **OpenCV** – Video processing and frame extraction  
@@ -68,7 +78,7 @@ See the complete workflow attached after these steps for detailed understanding.
 
 ---
 
-## 💡 Key Features
+##  Key Features
 
 - Real-time processing simulation on video streams
 - Modular and scalable pipeline
@@ -78,7 +88,7 @@ See the complete workflow attached after these steps for detailed understanding.
 
 ---
 
-## 📂 Sample Outputs
+##  Sample Outputs
 
 - ✅ Annotated video frames with detected vehicles and plates
 - ✅ Cropped license plate images saved to `extracted_ocr_plates/`
@@ -86,7 +96,7 @@ See the complete workflow attached after these steps for detailed understanding.
 
 ---
 
-## 📌 Research Contribution (What makes it different from any other LPR)
+##  Research Contribution (What makes it different from any other LPR)
 
 This project highlights:
 - A **complete LPR system**, not just isolated detection or OCR
@@ -97,7 +107,7 @@ Our **research paper** provides a detailed breakdown of this system’s performa
 
 ---
 
-## 📈 Future Scope
+##  Future Scope
 
 - Integration with live traffic CCTV feeds
 - Connection to real government APIs (e.g., NADRA, Excise Department)
